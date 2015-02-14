@@ -23,7 +23,7 @@ footer {
 }
 .box {
     padding: 2.75em 1.75em 0.5em 1.75em;
-    border-color: #830300;
+    border-color: #fb7f2b;
     border-width: thin;
     border-radius: 0.5em;
     border-style: solid;
@@ -113,7 +113,7 @@ ul.social li {
     padding: .5em 0 .5em 0;
     border-style: inset;
     border-bottom-width: 2px;
-    border-color: #830300;
+    border-color: #fb7f2b;
 }
 #nav.stick>nav>ul>li>a {
     color: #bbb;
@@ -145,11 +145,11 @@ ul.social li {
     outline: 0;
 }
 #nav>ul>li:hover>a {
-    background: #830300;
+    background: #fb7f2b;
     color: #fff;
 }
 .current {
-    background: #830300;
+    background: #fb7f2b;
     color: #fff!important;
     font-weight: 700;
 }
@@ -198,7 +198,6 @@ ul.social li {
 #banner {
     position: relative;
     padding: 10em 0;
-    margin: 1em 0 0 0;
 }
 #banner header {
     display: inline-block;
@@ -260,7 +259,7 @@ ul.social li {
 .box1 {
     border-style: inset;
     border-width: 2px;
-    border-color: #830300;
+    border-color: #fb7f2b;
 }
 .box1 .image.featured {
     left: 0;

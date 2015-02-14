@@ -4,9 +4,7 @@
 		<title>Vikalp Law Society</title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-
+		<meta name="description" content="Vikalp Law society is an effort by the Students of Guru Gobind Singh Indraprastha University, Delhi. It aims to spread basic education and legal awareness among the weaker sections of the society">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
@@ -22,12 +20,30 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/modernizr.js"></script>
+
+		<script type="text/javascript">
+			$(window).load(function() {
+				var i =0;
+				var images = ['images/index/1.jpg','images/index/2.jpg','images/index/3.jpg','images/index/4.jpg'];
+				var image = $('#banner');
+				image.css('background-image', 'url(images/index/4.jpg)');
+				setInterval(function(){
+					image.fadeOut(1000, function () {
+						image.css('background-image', 'url(' + images [i++] +')');
+						image.fadeIn(1000);
+					});
+					if(i == images.length)
+						i = 0;
+				}, 4000);
+			});
+		</script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
 		<a id="0">
 		<title>Vikalp Law Society</title>
 		</a>
+	<center>
 		<div id="header-wrapper">
 			<div id="header">
 				<div class = "image" id="home">
@@ -39,29 +55,32 @@
 					<nav id="nav">
 						<ul>
 							<li><a class="current" href="#home">Home</a></li>
-							<li><a href="#news">About Us</a></li>
-							<li><a href="#events">Core Team</a></li>
-							<li><a href="#"> Events </a></li>
-							<li><a href="map.html">Gallery</a></li>
-							<li><a href="subscribe.html">Contact Us</a></li>
-							<li><a href="#pastissue">Register</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="team.html">Core Team</a></li>
+							<li><a href="#"> Events </a>
+								<ul>
+									<li><a href="slumedu.html"> Slum Education Program </a></li>
+								</ul>
+							</li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="register.html">Register</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
-		<div id="header-wrapper">
+		<div id="header-wrapper" style="background:#fb7f2b">
 			<div id="banner">
 				<section>
 					<header>
-						<h2> Towards Awakening.... </h2>
-						<p> &nbsp; </p>
+						<h2> &nbsp; </h2> <p> &nbsp; </p>
 					</header>
 				</section>
 			</div>
 		</div>
 
-		<div id="main-wrapper" style="background: #830300">
+		<div id="main-wrapper" style="background: #fb7f2b">
 			<div class="container">
 				<div class="row">
 					<div class="12u">
@@ -71,9 +90,9 @@
 							</header>
 							<section class="box">
 								<p align="center">
-									Vikkalp Law society is an effort by the Students of Guru Gobind Singh Indraprastha University, Delhi. It aims to spread basic education and legal awareness among the weaker sections of the society.<br><br>
-									Established in 2011, Vikkalp Law Society, currently comprises of a small team which focuses on teaching the underprivileged sections of the society in Subhash Nagar (Behind Pacific mall) and Sector 1, Dwarka.<br><br>
-									Vikkalp is co founded by Ravi Mishra and Neha Chowdhary, Final Year Law students of University School Of Law and Legal Studies, Guru Gobind Singh Indraprastha University and now, Vikkalp has 7 core team members and 25 volunteers as its family.<br><br>
+									Vikalp Law society is an effort by the Students of Guru Gobind Singh Indraprastha University, Delhi. It aims to spread basic education and legal awareness among the weaker sections of the society.<br><br>
+									Established in 2011, Vikalp Law Society, currently comprises of a small team which focuses on teaching the underprivileged sections of the society in Subhash Nagar (Behind Pacific mall) and Sector 1, Dwarka.<br><br>
+									Vikalp is co founded by Ravi Mishra and Neha Chowdhary, Final Year Law students of University School Of Law and Legal Studies, Guru Gobind Singh Indraprastha University and now, Vikalp has 7 core team members and 25 volunteers as its family.<br><br>
 								</p>
 							</section>
 						</section>
@@ -87,7 +106,7 @@
 					<div class="12u">
 						<section>
 							<header class="major">
-								<h2 style="background:#830300; color:#fff"> Our Vision </h2>
+								<h2 style="background:#fb7f2b; color:#fff"> Our Vision </h2>
 							</header>
 							<p align="center"><i> We make a living by what we get, but we make a life by what we give </i></p>
 							<p align="right"> - Winston Churchill </p>
@@ -106,59 +125,37 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="pastissue">
-			<div id="footer-wrapper">
+	</center>
+		<div id="footer-wrapper">
 			<section id="footer" class="container">
 				<div class="row">
 					<div class="4u">
 						<section>
-							<a href="http://www.ipu.ac.in/" class="image featured"><img src="images/logo.jpg" alt="" /></a>
+							<a href="http://vikalplawsociety.org" class="image featured"><img src="images/title.jpg" alt="" /></a>
 							<p align="center">
-								Copyright © 2015<br><strong> VIKKALP </strong><br> All Rights Reserved
+								Copyright © 2015<br><strong> VIKALP </strong><br> All Rights Reserved
 							</p>
 						</section>
 					</div>
 					<div class="4u">
-						<div id="fb-root"></div>
-							<script>
-								(function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (d.getElementById(id)) return;
-									js = d.createElement(s); js.id = id;
-									js.async=true;
-									js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-									fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));
-							</script>
-							<div class="fb-like-box" style="background:#fff" data-href="https://www.facebook.com/ConnectUSS" data-width="367px" data-height="505px" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
 					</div>
 					<div class="4u">
 						<section>
 							<header>
-								<h2>Connect with Vikkalp</h2>
+								<h2>Connect with Vikalp</h2>
 							</header>
 							<ul class="social">
-								<li><a class="icon circle fa-facebook" href="https://www.facebook.com/ConnectUSS"><span class="label">Facebook</span></a></li>
-								<li><a class="icon circle fa-twitter" href="http://www.twitter.com/Connect_USS/"><span class="label">Twitter</span></a></li>
-								<li><a class="icon circle fa-youtube" href="https://www.youtube.com/channel/UC3VXxGLEfEq0rIi0Vuc6_3g"><span class="label">Youtube</span></a></li>
-								<li><a class="icon circle fa-instagram" href="http://www.instagram.com/connect_uss/"><span class="label">Instagram</span></a></li>
+								<li><a class="icon circle fa-facebook" href="https://www.facebook.com/VIKKALP.LAW.SOCIETY"><span class="label">Facebook</span></a></li>
+								<li><a class="icon circle fa-twitter" href="https://twitter.com/vls_vikalp"><span class="label">Twitter</span></a></li>
 							</ul>
 							<ul class="contact">
 								<li>
-									<h3>Address</h3>
-									<p>
-										Guru Gobind Singh Indraprastha University, Dwarka Sec-16C <br>
-										New Delhi-110078
-									</p>
-								</li>
-								<li>
 									<h3>Mail</h3>
-									<p><a href="mailto:connectuss@gmail.com"> Vikkalp </a></p>
+									<p><a href="mailto:vikalplawsociety@gmail.com"> Vikalp </a></p>
 								</li>
 								<li>
 									<h3>Website</h3>
-									<p><a href="http://www.ipu.ac.in/">www.ipu.ac.in</a></p>
+									<p><a href="http://vikalplawsociety.org">vikalplawsociety.org</a></p>
 								</li>
 							</ul>
 						</section>
